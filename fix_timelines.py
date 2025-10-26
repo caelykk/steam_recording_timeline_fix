@@ -1,6 +1,7 @@
 import json
 import glob
 
+
 def main():
     clips_path = "C:\\Program Files (x86)\\Steam\\userdata\\*********\\gamerecordings\\clips" # Paste your path
     timelines = glob.glob(f"{clips_path}\\**\\timelines\\*.json")
@@ -29,6 +30,6 @@ def main():
                 pass
 
 
-
 if __name__ == "__main__":
+
     main()
